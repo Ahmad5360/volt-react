@@ -1,0 +1,112 @@
+{
+  "name": "@themesberg/volt-react-dashboard",
+  "description": "Volt React Dashboard is a free and open source admin dashboard template powered by React.js and Bootstrap 5",
+  "author": "Themesberg",
+  "keywords": [
+    "bootstrap 5",
+    "react",
+    "react dashboard",
+    "react admin template",
+    "free react",
+    "react ui library",
+    "react bootstrap 5",
+    "bootstrap 5 dashboard",
+    "themesberg"
+  ],
+  "license": "MIT",
+  "homepage": "https://staging.d1q05qm381839r.amplifyapp.com",
+  "bugs": {
+    "url": "https://github.com/themesberg/volt-react-dashboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themesberg/volt-react-dashboard"
+  },
+  "version": "1.0.1",
+  "dependencies": {
+    "@aws-amplify/cli": "^12.12.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@popperjs/core": "^2.11.8",
+    "@testing-library/dom": "^10.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@themesberg/react-bootstrap": "^1.4.1",
+    "bootstrap": "5.0.0-beta1",
+    "chartist": "0.10.1",
+    "chartist-plugin-tooltips-updated": "^0.1.4",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.31",
+    "react": "^16.13.1",
+    "react-chartist": "^0.14.4",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^16.13.1",
+    "react-github-btn": "^1.2.0",
+    "react-live": "^2.2.3",
+    "react-router-dom": "5",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
+    "sass": "1.32.8",
+    "simplebar-react": "^2.3.0",
+    "typescript": "3.7.5"
+  },
+  "resolutions": {
+    "@types/babel__core": "^7.1.15",
+    "@types/supports-color": "^5.1.0",
+    "@types/eslint": "^7.2.1",
+    "@types/eslint-import-resolver-node": "^0.3.4",
+    "@types/eslint-import-resolver-typescript": "^2.1.0",
+    "@types/eslint-import-resolver-webpack": "^0.5.0",
+    "@types/ajv": "^6.12.3",
+    "@types/bufferutil": "^4.0.0",
+    "@types/request": "^2.48.0",
+    "@types/utf-8-validate": "^4.0.0",
+    "@types/prop-types": "^15.7.3",
+    "@types/moment": "^2.29.0",
+    "@types/chartist": "^0.11.0",
+    "@types/eslint-plugin-flowtype": "^4.6.0",
+    "@types/eslint-plugin-import": "^2.20.0",
+    "@types/eslint-plugin-jsx-a11y": "^6.2.3",
+    "@types/eslint-plugin-react": "^7.19.0",
+    "@types/eslint-plugin-react-hooks": "^1.7.0",
+    "@types/node-sass": "^4.14.0",
+    "@types/sass": "^1.32.0",
+    "@types/typescript-eslint__eslint-plugin": "^2.34.0",
+    "@types/typescript-eslint__parser": "^2.34.0",
+    "@types/webpack": "^4.42.0",
+    "@types/webpack-cli": "^3.3.12",
+    "@types/webpack-command": "^0.2.1",
+    "@types/testing-library__dom": "^6.14.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-local": "PUBLIC_URL=./ react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+ }

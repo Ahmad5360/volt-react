@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header, .footer {
+    flex: 0 0 auto;
+  }
+  
+  .flex-fill {
+    flex: 1 1 auto;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .section {
+    padding-top: 1.5rem; /* Adjust as needed */
+    padding-bottom: 1.5rem; /* Adjust as needed */
+  }  
